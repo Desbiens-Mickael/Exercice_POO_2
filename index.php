@@ -76,7 +76,7 @@ $truc_2 = new Truck(200, 'bleu', 4, 'éléctrique');
     echo $truc_2->brake();
     echo '<br> Vitesse du camion : ' . $truc_2->getCurrentSpeed() . ' km/h' . '<br>';
     echo $truc_2->brake() . '<br>';
-    $truc_2->setLoad(100);
+    $truc_2->setLoad(200);
     echo $truc_2->isFull($truc_2->getLoad());  
     ?>
 
