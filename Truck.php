@@ -39,7 +39,7 @@ class Truck extends Vehicle
 
     public function isFull(int $load) :string
     {
-       return $load < 100 ? "in filling" : "full";
+       return $load < this->storageCapacity ? "in filling" : "full";
     }
 }
 
